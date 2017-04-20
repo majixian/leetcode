@@ -39,9 +39,7 @@ func twoSum(nums []int, target int) []int {
  */
 func twoSum1(nums []int, target int) []int {
 	arr := make(map[int]int)
-	t := 0
-	k1 := 0
-	k2 := 0
+	var t, k1, k2 int
 
 	for i := 0; i < len(nums); i++ {
 		arr[nums[i]] = i
