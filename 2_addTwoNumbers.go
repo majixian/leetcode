@@ -30,7 +30,7 @@ func main() {
 
 	res := addTwoNumbers(a1, b1)
 	for res != nil {
-		fmt.Println("%d", res.Val)
+		fmt.Println("node_value", res.Val)
 		res = res.Next
 	}
 }
